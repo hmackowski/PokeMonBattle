@@ -13,18 +13,15 @@ public class Opponent {
 	public void oponentPickPokemon() {
 		int opponentSelection = 1 + r.nextInt(3);
 		
-		
-
-		
 		switch (opponentSelection){
 		  case 1:
 			    // code block
-			  PokeStart.trainerPokemon = new Bulbasaur();
+			  PokeStart.opponentPokemon = new Bulbasaur();
 			   System.out.println("Your Opponent chose Bulbasaur as their partner PokeMon!");
 			    break;
 		 case 2:
 			    // code block
-			 PokeStart.trainerPokemon = new Charmander();
+			 PokeStart.opponentPokemon = new Charmander();
 			 System.out.println("Your Opponent chose Charmander as their partner PokeMon!");
 			    break;
 		 case 3:
@@ -34,9 +31,26 @@ public class Opponent {
 
 		default:  // code block
 	    	
-		}	
-		
-		
+		}			
 		
 	}
+	
+	
+	public int opponentDamage(int attackSelection) {
+		
+		return 5;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

@@ -17,7 +17,7 @@ public class Charmander implements Pokemon{
 		 case 2:
 			    // code block
 			  damage = 15;
-			  System.out.println("Charmander used Ember Leaf " + damage + " damage!");
+			  System.out.println("Charmander used Ember " + damage + " damage!");
 			    break;
 		 case 3:
 			    // code block
